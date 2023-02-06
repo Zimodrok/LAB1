@@ -13,7 +13,7 @@ xhttp.onreadystatechange = function() {
 // Створюємо змінну зберігаючу відповідь, яку шукаємо в JSON-рядку
     var response = JSON.parse(this.responseText);
 // Виведення на екран
-      alert("The tangent of function: " + decodeURI(func_v) + ", at the point: " + point_v + ", is y = " + response.result);
+      alert("Рівняння дотичної, функції: " + decodeURI(func_v) + ", в точці: " + point_v + " , це y = " + response.result);
   }
 };
 // "Запускаємо" запит
